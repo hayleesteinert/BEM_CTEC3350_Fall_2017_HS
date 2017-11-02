@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="BEM Website Modules">
+    <meta name="keywords" content="Modules, Modular, Components, BEM Assignment">
+    <meta name="author" content="Haylee Steinert">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <title>Components</title>
+  </head>
+
+<header>
+
+<div class="above-head">
+	
+	<div class="above-img">
+		<img src="files/FishCreekAnimalHospital_Logo_Horizontal.png" alt="Fish Creek Logo">
+	</div>
+	
+	<div class="searchbox">
+		<form action="" method="post" name="searchbox">
+		
+			<input type="text" size="55" name="search" 	id="search" placeholder="Search">
+		
+			<input type="submit" name="submit" id="submit">
+		</form>
+		<a href="">Stay informed! Click here to subscribe to our newsletter!</a>
+	</div>
+</div>
+</header>
+
+<nav>
+	<div class="main-nav">
+		<ul class="list-inline">
+			
+			<li><a href="typographyBEM.html"><span class="icon"><i class="fa fa-list-alt" aria-hidden="true"></i></span>Typography</a></li>
+			
+			<li><a href="brandingBEM.html"><span class="icon"><i class="fa fa-building-o" aria-hidden="true"></i></span> Branding & Setup</a></li>
+			
+			<li><a href="modulesBEM.html" class="current"><span class="icon"><i class="fa fa-puzzle-piece" aria-hidden="true"></i></span> Components</a></li>
+			
+			<li><a href="documentsBEM.html"><span class="icon"><i class="fa fa-handshake-o" aria-hidden="true"></i></span> Documentation</a></li>
+		</ul>	
+	</div>
+</nav>
+
+
+<body>
+
+<div class="top">
+			<ul>
+				<li><span class="tocheader">Components</span></li>
+
+					<ul>
+						<li><a href="#home">Home</a></li>
+						<li><a href="#spot">Spotlight</a></li>
+						<li><a href="#article">Article</a></li>
+						<li><a href="#faq">FAQ</a></li>
+						<li><a href="#products">Products</a></li>
+					</ul>
+	</div>
+<body>
+	
+	
+<div class="container">
+		<div class="main-content">
+			
+		<h1>Components</h1>
+			<h2 a id="home">Home Component</a></h2>
+				<div class="box">*For the purpose of this page, <strong>.home</strong> is placed at <strong>max-width: 70vw;</strong> in the CSS. However, it should be placed at <strong>100vw</strong> for the intended effect.</div>
+
+<div class="content">
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Example</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>
+					
+<div class="home">
+   <div class="home-container">
+     		
+  <div class="home-left-container">
+   
+    <div class="home-head">
+     Welcome to Fish Creek Animal Hospital!
+    </div>
+     <div class="home-sub">
+     	Twenty years of experience and counting in caring for your furry friends!
+     </div>
+     
+     	<a href=""><div class="home-button"><a href="#" class="btn secondary-btn xl-btn">Schedule an Appointment!</a></div></a>
+	  
+	  	<a href=""><div class="home-button"><a href="#" class="btn secondary-btn xl-btn">Go Shopping!</a></div></a>
+     
+   </div>
+   
+   <div class="home-pic"></div>	
+   
+   </div>
+</div>
+							
+<div class="home-stack">
+   <div class="home-container">
+     		
+  <div class="home-left-container">
+   
+    <div class="home-head">
+     Welcome to Fish Creek Animal Hospital!
+    </div>
+     <div class="home-sub">
+     	Twenty years of experience and counting in caring for your furry friends!
+     </div>
+     
+     	<div class="home-button"><a href="#" class="btn secondary-btn xl-btn">Schedule an Appointment!</a></div>
+	  
+	  	<div class="home-button"><a href="#" class="btn secondary-btn xl-btn">Go Shopping!</a></div>
+     
+   </div>
+   
+    <div class="home-pic"></div>	
+   
+   	</div>
+	</div>
+</td>
+		</tr>
+	</tbody>
+</table>
+			
+<div class="highlight">
+	<code><pre><span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"home"</span><span class="mk">&gt;</span>
+	
+<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"home-container"</span><span class="mk">&gt;</span>
+     		
+<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"home-left-container"</span><span class="mk">&gt;</span>
+   
+<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"home-head"</span><span class="mk">&gt;</span>
+     Welcome to Fish Creek Animal Hospital!
+    <span class="mk">&lt;/div&gt;</span>
+     <span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"home-sub"</span><span class="mk">&gt;</span>
+     	Twenty years of experience and counting in caring for your furry friends!
+     <span class="mk">&lt;/div&gt;</span>
+     
+     <span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"home-button"</span><span class="mk">&gt;</span><span class="mk">&lt;a</span> <span class="mk2">href=</span><span class="mk3">"#"</span> <span class="mkw">class=<span class="mk3">"btn secondary-btn xl-btn"</span><span class="mk">&gt;</span>Schedule an Appointment!<span class="mk">&lt;/a&gt;&lt;/div&gt;</span>
+	  
+	 <span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"home-button"</span><span class="mk">&gt;</span><span class="mk">&lt;a</span> <span class="mk2">href=</span><span class="mk3">"#"</span> <span class="mkw">class=<span class="mk3">"btn secondary-btn xl-btn"</span><span class="mk">&gt;</span>Go Shopping!<span class="mk">&lt;/a&gt;&lt;/div&gt;</span>
+     
+   <span class="mk">&lt;/div&gt;</span>
+   
+   <span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"home-pic"</span><span class="mk">&gt;</span><span class="mk">&lt;/div&gt;</span>	
+   
+   <span class="mk">&lt;/div&gt;
+&lt;/div&gt;</span></pre></code>
+</div>
+
+	<h2 a id="spot">Spotlight Component</a></h2>
+
+		<div class="content">
+			<table class="table">
+				<thead>
+				 	<tr>
+				 		<th>Example</th>
+				 	</tr>
+				 </thead>
+				 <tbody>
+				 	<tr>
+				 		<td>
+
+<div class="spot">
+
+	<div class="spot-container">
+		<div class="spot-head"><h2>Looking for great deals?</h2></div>
+		<div class="spot-sub"><h4>Look no further! 30% off all pet essentials!</h4>
+		</div>
+		<div class="spot-pic">
+			<img src="files/longimg.png" alt="placeholder image">
+		</div>
+			<div class="spot-bottom"><h3><a href="">Save now! Click here to shop!</a></h3>
+			</div>
+	</div>
+</div>
+</td>
+		
+		</tr>
+	</tbody>
+</table>  
+				
+<div class="highlight">
+<code><pre>
+ <span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"spot"</span><span class="mk">&gt;</span>
+
+	 <span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"spot-container"</span><span class="mk">&gt;</span>
+		 <span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"spot-head"</span><span class="mk">&gt;</span><span class="mk">&lt;h2&gt;</span>Looking for great deals? <span class="mk">&lt;/h2&gt;</span> <span class="mk">&lt;/div&gt;</span>
+		 <span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"spot-sub"</span><span class="mk">&gt;</span><span class="mk">&lt;h4&gt;</span>Look no further! 30% off all pet essentials!<span class="mk">&lt;/h4&gt;</span><span class="mk">&lt;/div&gt;</span>
+		<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"spot-pic"</span><span class="mk">&gt;</span><span class="mk">&lt;</span><span class="mk">img</span><span class="mk2"> src=</span><span class="mk3">"URL"</span> <span class="mk2"> alt=</span><span class="mk3">"description"</span><span class="mk">&gt;&lt;/div&gt;</span>
+		<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"spot-bottom"</span><span class="mk">&gt;</span><span class="mk">&lt;h3&gt;</span><span class="mk">&lt;a</span> <span class="mk2">href=</span><span class="mk3">""</span><span class="mk">&gt;</span>Save now! Click here to shop!<span class="mk">&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+		&lt;/div&gt;
+&lt;/div&gt;</span>
+</pre></code></div>
+
+	<h2 a id="article">Article Component</a></h2>
+
+		<div  class="content">
+			<table class="table">
+				 <thead>
+				 	<tr>
+				 		<th>Example</th>
+				 	</tr>
+				 	</thead>
+				 	<tbody>
+				 		<tr>
+				 			<td>
+<div class="article">
+
+	<div class="article-container">
+		<div class="article-title"><h3>Interesting Title Goes Here</h3></div>
+		<div class="article-pic">
+			<img src="files/squareimg.png" alt="placeholder image">
+			a caption
+		</div>
+		<div class="article-text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod rutrum nibh et eleifend. In eu eros vel velit bibendum pulvinar eu quis turpis. Nulla sit amet efficitur risus. Aliquam id metus et nisi aliquam dapibus at sed mi. Sed nulla elit, vulputate non lacinia id, placerat at odio. Nulla sed vulputate urna, ac lobortis metus. Donec mattis tempus dictum.</p></div>
+	</div>
+</div>
+								
+<div class="article-stack">
+
+	<div class="article-container">
+		<div class="article-title">
+			<h3>Interesting Title Goes Here</h3>
+		</div>
+		<div class="article-pic">
+			<img src="files/squareimg.png" alt="placeholder image">
+			a caption
+		</div>
+		<div class="article-text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod rutrum nibh et eleifend. In eu eros vel velit bibendum pulvinar eu quis turpis. Nulla sit amet efficitur risus. Aliquam id metus et nisi aliquam dapibus at sed mi. Sed nulla elit, vulputate non lacinia id, placerat at odio. Nulla sed vulputate urna, ac lobortis metus. Donec mattis tempus dictum.</p></div>
+	</div>
+</div>								
+</td>
+		</tr>
+	</tbody>
+</table>
+				
+<div class="highlight">
+<code><pre><span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"article"</span><span class="mk">&gt;</span>
+	<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"article-container"</span><span class="mk">&gt;</span>
+		<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"article-title"</span><span class="mk">&gt;</span><span class="mk">&lt;h3&gt;</span>Interesting Title Goes Here<span class="mk">&lt;/h3&gt;&lt;/div&gt;</span>
+		<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"article-pic"</span><span class="mk">&gt;</span>
+			<span class="mk">&lt;img</span> <span class="mk2">src=</span><span class="mk3">"URL"</span> <span class="mk2">alt=</span><span class="mk3">"description"</span><span class="mk">&gt;</span>
+			A caption
+		<span class="mk">&lt;/div&gt;</span>
+		<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"article-text"</span><span class="mk">&gt;</span><span class="mk">&lt;p&gt;</span>Article Text Here.<span class="mk">&lt;/p&gt;&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</span>
+</pre></code></div>
+				
+<h2 a id="faq">FAQ Component</a></h2>
+
+	<div id="headings" class="content">
+		<table class="table">
+			<thead>
+				<tr>
+				 <th>Example</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+				 	<td>
+<div class="faq">
+
+	<div class="faq-container">
+		<div class="faq-question">
+			<h3>An Important Question</h3>
+		</div>
+		<div class="faq-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod rutrum nibh et eleifend. In eu eros vel velit bibendum pulvinar eu quis turpis. Nulla sit amet efficitur risus. Aliquam id metus et nisi aliquam dapibus at sed mi. Sed nulla elit, vulputate non lacinia id, placerat at odio. Nulla sed vulputate urna, ac lobortis metus. Donec mattis tempus dictum.</div>
+		</div>
+		<div class="faq-container">
+		<div class="faq-question">
+			<h3>An Important Question</h3>
+		</div>
+		<div class="faq-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod rutrum nibh et eleifend. In eu eros vel velit bibendum pulvinar eu quis turpis. Nulla sit amet efficitur risus. Aliquam id metus et nisi aliquam dapibus at sed mi. Sed nulla elit, vulputate non lacinia id, placerat at odio. Nulla sed vulputate urna, ac lobortis metus. Donec mattis tempus dictum.</div>
+	</div>
+								</div>
+	
+<div class="faq-center-all">
+
+	<div class="faq-container">
+		<div class="faq-question">
+			<h3>An Important Question</h3>
+		</div>
+		<div class="faq-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod rutrum nibh et eleifend. In eu eros vel velit bibendum pulvinar eu quis turpis. Nulla sit amet efficitur risus. Aliquam id metus et nisi aliquam dapibus at sed mi. Sed nulla elit, vulputate non lacinia id, placerat at odio. Nulla sed vulputate urna, ac lobortis metus. Donec mattis tempus dictum.</div>
+		</div>
+		<div class="faq-container">
+		<div class="faq-question">
+			<h3>An Important Question</h3>
+		</div>
+		<div class="faq-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod rutrum nibh et eleifend. In eu eros vel velit bibendum pulvinar eu quis turpis. Nulla sit amet efficitur risus. Aliquam id metus et nisi aliquam dapibus at sed mi. Sed nulla elit, vulputate non lacinia id, placerat at odio. Nulla sed vulputate urna, ac lobortis metus. Donec mattis tempus dictum.</div>
+		</div>
+	</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+				
+<div class="highlight">
+<code><pre>
+<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"faq-container"</span><span class="mk">&gt;</span>
+	<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"faq-question"</span><span class="mk">&gt;</span><span class="mk">&lt;h3&gt;</span>Question?<span class="mk">&lt;/h3&gt;</span><span class="mk">&lt;/div&gt;</span>
+	<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"faq-text"</span><span class="mk">&gt;</span>Text<span class="mk">&lt;/div&gt;</span>
+<span class="mk">&lt;/div&gt;</span>
+<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"faq-container"</span><span class="mk">&gt;</span>
+	<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"faq-question"</span><span class="mk">&gt;</span><span class="mk">&lt;h3&gt;</span>Question?<span class="mk">&lt;/h3&gt;</span><span class="mk">&lt;/div&gt;</span>
+	<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"faq-text"</span><span class="mk">&gt;</span>Text<span class="mk">&lt;/div&gt;</span>
+<span class="mk">&lt;/div&gt;</span>
+</pre></code></div>
+	
+<h2 a id="products">Product Component</a></h2>
+	<div class="box">*For the purpose of this page, <strong>.product</strong> is placed at <strong>max-width: 70vw;</strong> in the CSS. However, it should be placed at <strong>90vw</strong> for the intended effect.</div>
+
+			<div id="headings" class="content">
+				 <table class="table">
+				 	<thead>
+				 		<tr>
+				 			<th>Example</th>
+				 		</tr>
+				 	</thead>
+				 	<tbody>
+				 		<tr>
+				 			<td>
+
+<div class="product">
+
+	<div class="product-row">
+	<div class="product-container ">
+		<div class="product-title">
+			<h4>Product</h4>
+		</div>
+		
+		<div class="product-pic">
+			<img src="files/squareimg.png" alt="placeholder image">
+		</div>
+		<div class="product-info">
+			<ul class="list-unstyle">
+				<li>$25.00</li>
+				<li>In Stock</li>
+			</ul>
+		</div>
+	</div>
+	<div class="product-container">
+		<div class="product-title">
+			<h4>Product</h4>
+		</div>
+		<div class="product-pic">
+			<img src="files/squareimg.png" alt="placeholder image">
+		</div>
+		<div class="product-info">
+			<ul class="list-unstyle">
+				<li>$25.00</li>
+				<li>In Stock</li>
+			</ul>
+		</div>
+	</div>
+	<div class="product-container">
+		<div class="product-title">
+			<h4>Product</h4>
+		</div>
+		<div class="product-pic">
+			<img src="files/squareimg.png" alt="placeholder image">
+		</div>
+		<div class="product-info">
+			<ul class="list-unstyle">
+				<li>$25.00</li>
+				<li>In Stock</li>
+			</ul>
+		</div>
+	</div>
+</div>
+</div>
+								
+<div class="product-stack-all">
+
+	<div class="product-row">
+	<div class="product-container ">
+		<div class="product-title">
+			<h4>Product</h4>
+		</div>
+		
+		<div class="product-pic">
+			<img src="files/squareimg.png" alt="placeholder image">
+		</div>
+		<div class="product-info">
+			<ul class="list-unstyle">
+				<li>$25.00</li>
+				<li>In Stock</li>
+			</ul>
+		</div>
+	</div>
+	<div class="product-container">
+		<div class="product-title">
+			<h4>Product</h4>
+		</div>
+		<div class="product-pic">
+			<img src="files/squareimg.png" alt="placeholder image">
+		</div>
+		<div class="product-info">
+			<ul class="list-unstyle">
+				<li>$25.00</li>
+				<li>In Stock</li>
+			</ul>
+		</div>
+	</div>
+	<div class="product-container">
+		<div class="product-title">
+			<h4>Product</h4>
+		</div>
+		<div class="product-pic">
+			<img src="files/squareimg.png" alt="placeholder image">
+		</div>
+		<div class="product-info">
+			<ul class="list-unstyle">
+				<li>$25.00</li>
+				<li>In Stock</li>
+			</ul>
+		</div>
+	</div>
+</div>
+</div>		 		
+			</td>				
+		</tr>	 	
+	</tbody>			 
+</table>
+				
+<div class="highlight">
+<code><pre>
+<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"product"</span><span class="mk">&gt;</span>
+
+	<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"product-row"</span><span class="mk">&gt;</span>
+	<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"product-container"</span><span class="mk">&gt;</span>
+		<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"product-title"</span><span class="mk">&gt;</span><span class="mk">&lt;h4&gt;</span>Product<span class="mk">&lt;/h4&gt;</span><span class="mk">&lt;/div&gt;</span>
+		
+		<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"product-pic"</span><span class="mk">&gt;</span><span class="mk">&lt;</span><span class="mk">img</span> <span class="mk2">src=</span><span class="mk3">"URL"</span><span class="mk2">alt=</span><span class="mk3">"description"</span><span class="mk">&gt;</span><span class="mk">&lt;/div&gt;</span>
+		<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"product-pic"</span><span class="mk">&gt;</span><span class="mk"><span class="mk">&lt;img</span> <span class="mk2">src=</span><span class="mk3">"URL"</span> <span class="mk2">alt=</span><span class="mk3">"description"</span><span class="mk">&gt;</span>&lt;/div&gt;</span>
+		<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"product-info"</span><span class="mk">&gt;</span>
+		$25.00<span class="mk">&lt;br&gt;</span>
+		In Stock
+		<span class="mk">&lt;/div&gt;</span>
+	<span class="mk">&lt;/div&gt;</span>
+	</span>
+	<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"product-container"</span><span class="mk">&gt;</span>
+		<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"product-title"</span><span class="mk">&gt;</span><span class="mk">&lt;h4&gt;</span>Product<span class="mk">&lt;/h4&gt;</span><span class="mk">&lt;/div&gt;</span>
+		
+		<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"product-pic"</span><span class="mk">&gt;</span><span class="mk">&lt;img</span> <span class="mk2">src=</span><span class="mk3">"URL"</span> <span class="mk2">alt=</span><span class="mk3">"description"</span><span class="mk">&gt;</span><span class="mk">&lt;/div&gt;</span>
+		<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"product-info"</span><span class="mk">&gt;</span>
+		$25.00<span class="mk">&lt;br&gt;</span>
+		In Stock
+		<span class="mk">&lt;/div&gt;</span>
+	<span class="mk">&lt;/div&gt;</span>
+	</span>
+	<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"product-container"</span><span class="mk">&gt;</span>
+		<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"product-title"</span><span class="mk">&gt;</span><span class="mk">&lt;h4&gt;</span>Product<span class="mk">&lt;/h4&gt;</span><span class="mk">&lt;/div&gt;</span>
+		
+		<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"product-pic"</span><span class="mk">&gt;</span><span class="mk"><span class="mk">&lt;img</span> <span class="mk2">src=</span><span class="mk3">"URL"</span> <span class="mk2">alt=</span><span class="mk3">"description"</span><span class="mk">&gt;</span>&lt;/div&gt;</span>
+		<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"product-info"</span><span class="mk">&gt;</span>
+		$25.00<span class="mk">&lt;br&gt;</span>
+		In Stock
+		<span class="mk">&lt;/div&gt;</span>
+	<span class="mk">&lt;/div&gt;</span>
+<span class="mk">&lt;/div&gt;</span>
+</pre></code></div>
+	
+<div class="toc">
+			<ul>
+				<li><span class="tocheader">Components</span></li>
+
+					<ul>
+						<li><a href="#home">Home</a></li>
+						<li><a href="#spot">Spotlight</a></li>
+						<li><a href="#article">Article</a></li>
+						<li><a href="#faq">FAQ</a></li>
+						<li><a href="#products">Products</a></li>
+					</ul>
+	</div>
+</div>
+</div>
+</body>
+</html>
