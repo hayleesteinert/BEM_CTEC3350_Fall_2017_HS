@@ -1,554 +1,954 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html>
-	
 <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="BEM Website Modules">
-    <meta name="keywords" content="BEM Assignment, Branding, Colors, Forms">
-    <meta name="author" content="Haylee Steinert">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
-<title>Branding</title>
-   
-    <link rel="stylesheet" type="text/css" href="css/base.css">
-	<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+	<meta charset="UTF-8">
+	<meta content="BEM Website Modules" name="description">
+	<meta content="BEM Assignment, Branding, Colors, Forms" name="keywords">
+	<meta content="Haylee Steinert" name="author">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+	<title>Branding</title>
+	<link href="css/base.css" rel="stylesheet" type="text/css">
+	<link href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type=
+	"text/css">
 </head>
 
-<header>
-
-<div class="above-head">
-	
-	<div class="above-img">
-		<img src="files/FishCreekAnimalHospital_Logo_Horizontal.png" alt="Fish Creek Logo">
-	</div>
-	
-	<div class="searchbox">
-		<form action="" method="post" name="searchbox">
-		
-			<input type="text" size="55" name="search" 	id="search" placeholder="Search">
-		
-			<input type="submit" name="submit" id="submit">
-		</form>
-		<a href="">Stay informed! Click here to subscribe to our newsletter!</a>
-	</div>
-	
-</div>
-	
-</header>
-
-<nav>
-	<div class="main-nav">
-		<ul class="list-inline">
-			
-			<li><a href="typographyBEM.html" ><span class="icon"><i class="fa fa-list-alt" aria-hidden="true"></i></span> Typography</a></li>
-			
-			<li><a href="brandingBEM.html" class="current"><span class="icon"><i class="fa fa-building-o" aria-hidden="true"></i></span> Branding & Setup</a></li>
-			
-			<li><a href="modulesBEM.html"><span class="icon"><i class="fa fa-puzzle-piece" aria-hidden="true"></i></span> Components</a></li>
-			
-			<li><a href="documentsBEM.html"><span class="icon"><i class="fa fa-handshake-o" aria-hidden="true"></i></span> Documentation</a></li>
-		</ul>	
-	</div>
-</nav>
-
-
 <body>
+	<header>
+		<div class="above-head">
+			<div class="above-img"><img alt="Fish Creek Logo" src=
+			"files/FishCreekAnimalHospital_Logo_Horizontal.png">
+			</div>
 
-<div class="top">
-	<ul>
-		<li><span class="tocheader">Branding</span>
 
-			<li><a href="#color">Color Scheme</a>
-				<ul>
-								
-					</ul>
-						<li><a href="#mark">Markup</a></li>
-							<ul>
-								<li><a href="#content">Basic Content Structure</a></li>
-								<li><a href="#button">Buttons</a></li>
-							</ul>
-								<li><a href="#form">Forms</a></li>
-	</ul>
+			<div class="searchbox">
+				<form action="" id="searchbox" method="post" name="searchbox">
+					<input id="search" name="search" placeholder="Search" size="55" type="text"> <input id=
+					"submit" name="submit" type="submit">
+				</form>
+				<a href="">Stay informed! Click here to subscribe to our newsletter!</a>
+			</div>
+		</div>
+	</header>
+
+
+	<nav>
+		<div class="main-nav">
+			<ul class="list-inline">
+				<li>
+					<a href="typographyBEM.html"><span class="icon"><i aria-hidden="true" class=
+					"fa fa-list-alt"></i></span> Typography</a>
+				</li>
+
+
+				<li>
+					<a class="current" href="brandingBEM.html"><span class="icon"><i aria-hidden="true" class=
+					"fa fa-building-o"></i></span> Branding & Setup</a>
+				</li>
+
+
+				<li>
+					<a href="modulesBEM.html"><span class="icon"><i aria-hidden="true" class=
+					"fa fa-puzzle-piece"></i></span> Components</a>
+				</li>
+
+
+				<li>
+					<a href="documentsBEM.html"><span class="icon"><i aria-hidden="true" class=
+					"fa fa-handshake-o"></i></span> Documentation</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+
+	<div class="top">
+		<ul>
+			<li><span class="tocheader">Branding</span>
 			</li>
-</div>
-	
-<div class="container">
-	<div class="main-content">
 
-		<h1>Branding</h1>
-			<h2 a id="color">Color Scheme</a></h2>
 
-				<div class="content">
-				 	<table class="table">
-				 		<thead>
-				 			<tr>
-				 				<th>Color</th>
-				 				<th>Declarations</th>
-				 			</tr>
-				 		</thead>
-				 		<tbody>
-				 			<tr>
-				 				<td>
-									<div class="colorful-box-primary">
-									</div>
-								</td>
-				 				<td>
-									<h4>Primary Color</h4>
-				 						<ul class="list-unstyle">
-											<li>Hexadecimal: #E4752B</li>
-											<li>RGB: (228, 117, 43)</li>
-											<li>RGBA: (228, 117, 43, 1)</li>
-										</ul>
-								</td>
-				 		</tr>
-				 		<tr>
-				 			<td>
-								<div class="colorful-box-secondary"></div>
-							</td>
-				 			<td>
-								<h4>Secondary Color</h4>
-				 					<ul class="list-unstyle">
-										<li>Hexadecimal: #2F66B0</li>
-										<li>RGB: (47, 102, 176)</li>
-										<li>RGBA: (47, 102, 176, 1)</li>
-									</ul>
-							</td>
-				 		</tr>
-				 		<tr>
-				 			<td><div class="colorful-box-terciary"></div></td>
-				 			<td>
-								<h4>Terciary Color</h4>
-								<ul class="list-unstyle">
-										<li>Hexadecimal: #1C4070</li>
-										<li>RGB: (28, 64, 112)</li>
-										<li>RGBA: (28, 64, 112, 1)</li></td>
-								</ul>
-				 		</tr>
-				 		<tr>
-				 			<td><div class="colorful-box-comp">
+			<li>
+				<a href="#color">Color Scheme</a>
+
+				<ul>
+				</ul>
+			</li>
+
+
+			<li>
+				<a href="#mark">Markup</a>
+			</li>
+
+
+			<li style="list-style: none; display: inline">
+				<ul>
+					<li>
+						<a href="#content">Basic Content Structure</a>
+					</li>
+
+
+					<li>
+						<a href="#button">Buttons</a>
+					</li>
+				</ul>
+			</li>
+
+
+			<li>
+				<a href="#form">Forms</a>
+			</li>
+		</ul>
+	</div>
+
+
+	<div class="container">
+		<div class="main-content">
+			<h1>Branding</h1>
+
+
+			<h2 id="color">Color Scheme</h2>
+
+
+			<div class="content">
+				<table class="table">
+					<thead>
+						<tr>
+							<th>Color</th>
+
+							<th>Declarations</th>
+						</tr>
+					</thead>
+
+
+					<tbody>
+						<tr>
+							<td>
+								<div class="colorful-box-secondary">
 								</div>
 							</td>
-				 			<td>
+
+							<td>
+								<h4>Primary Color</h4>
+
+
+								<ul class="list-unstyle">
+									<li>Hexadecimal: #2F66B0</li>
+
+
+									<li>RGB: (47, 102, 176)</li>
+
+
+									<li>RGBA: (47, 102, 176, 1)</li>
+								</ul>
+							</td>
+						</tr>
+
+
+						<tr>
+							<td>
+								<div class="colorful-box-primary">
+								</div>
+							</td>
+
+							<td>
+								<h4>Secondary Color</h4>
+
+
+								<ul class="list-unstyle">
+									<li>Hexadecimal: #E4752B</li>
+
+
+									<li>RGB: (228, 117, 43)</li>
+
+
+									<li>RGBA: (228, 117, 43, 1)</li>
+								</ul>
+							</td>
+						</tr>
+
+
+						<tr>
+							<td>
+								<div class="colorful-box-terciary">
+								</div>
+							</td>
+
+							<td>
+								<h4>Terciary Color</h4>
+
+
+								<ul class="list-unstyle">
+									<li>Hexadecimal: #1C4070</li>
+
+
+									<li>RGB: (28, 64, 112)</li>
+
+
+									<li>RGBA: (28, 64, 112, 1)</li>
+								</ul>
+							</td>
+						</tr>
+
+
+						<tr>
+							<td>
+								<div class="colorful-box-comp">
+								</div>
+							</td>
+
+							<td>
 								<h4>Complimentary Color One</h4>
-									<ul class="list-unstyle">
-										<li>Hexadecimal: #5292E8</li>
-				 						<li>RGB: (82, 146, 232)</li>
-										<li>RGBA: (82, 146, 232, 1)</li>
-									</ul>
+
+
+								<ul class="list-unstyle">
+									<li>Hexadecimal: #5292E8</li>
+
+
+									<li>RGB: (82, 146, 232)</li>
+
+
+									<li>RGBA: (82, 146, 232, 1)</li>
+								</ul>
 							</td>
-				 		</tr>
-				 		<tr>
-				 			<td>
-								<div class="colorful-box-comp2"></div>
+						</tr>
+
+
+						<tr>
+							<td>
+								<div class="colorful-box-comp2">
+								</div>
 							</td>
-				 			<td>
+
+							<td>
 								<h4>Complimentary Color Two</h4>
-									<ul class="list-unstyle"></ul>
-										<li>Hexadecimal: #F18A46</li>
-										<li>RGB: (241, 138, 70)</li>
-				 						<li>RGBA: (241, 138, 70, 1)</li>
-									</ul>
+
+
+								<ul class="list-unstyle">
+								</ul>
+
+
+								<ul>
+									<li>Hexadecimal: #F18A46</li>
+
+
+									<li>RGB: (241, 138, 70)</li>
+
+
+									<li>RGBA: (241, 138, 70, 1)</li>
+								</ul>
 							</td>
-				 		</tr>
-				 	</tbody>
+						</tr>
+					</tbody>
 				</table>
-					 
-<h2 a id="mark">Markup</a></h2>
-	<h3>Basic Page Template</h3>
 
-<div class="highlight">
 
-<code><pre>
+				<h2 id="mark">Markup</h2>
+
+
+				<h3>Basic Page Template</h3>
+
+
+				<div class="highlight">
+					<code></code>
+
+					<pre><code>
 &lt;!doctype html&gt;
 <span class="mk">&lt;html&gt;</span>
-	
+    
 <span class="mk">&lt;head&gt;</span>
-    <span class="mk">&lt;meta</span> <span class="mk2">charset=</span><span class="mk3">"UTF-8"</span><span class="mk">&gt;</span>
-    <span class="mk">&lt;meta </span><span class="mk2">name=</span><span class="mk3">"description"</span> <span class="mk2">content=</span><span class="mk3">"BEM Website Modules"</span><span class="mk">&gt;</span>
-    <span class="mk">&lt;meta</span> <span class="mk2">name=</span><span class="mk3">"keywords"</span> <span class="mk2">content=</span><span class="mk3">"Keywords for Page"</span><span class="mk">&gt;</span>
-    <span class="mk">&lt;meta</span> <span class="mk2">name=</span><span class="mk3">"author"</span> <span class="mk2">content=</span><span class="mk3">"Haylee Steinert"</span><span class="mk">&gt;</span>
-    <span class="mk">&lt;meta</span> <span class="mk2">name=</span><span class="mk3">"viewport"</span> <span class="mk2">content=</span><span class="mk3">"width=device-width, initial-scale=1.0"</span><span class="mk">&gt;</span>
+    <span class="mk">&lt;meta</span> <span class="mk2">charset=</span><span class=
+"mk3">"UTF-8"</span><span class="mk">&gt;</span>
+    <span class="mk">&lt;meta </span><span class="mk2">name=</span><span class=
+"mk3">"description"</span> <span class="mk2">content=</span><span class=
+"mk3">"BEM Website Modules"</span><span class="mk">&gt;</span>
+    <span class="mk">&lt;meta</span> <span class="mk2">name=</span><span class=
+"mk3">"keywords"</span> <span class="mk2">content=</span><span class=
+"mk3">"Keywords for Page"</span><span class="mk">&gt;</span>
+    <span class="mk">&lt;meta</span> <span class="mk2">name=</span><span class=
+"mk3">"author"</span> <span class="mk2">content=</span><span class=
+"mk3">"Haylee Steinert"</span><span class="mk">&gt;</span>
+    <span class="mk">&lt;meta</span> <span class="mk2">name=</span><span class=
+"mk3">"viewport"</span> <span class="mk2">content=</span><span class=
+"mk3">"width=device-width, initial-scale=1.0"</span><span class="mk">&gt;</span>
 
-    <span class="mk">&lt;link</span> <span class="mk2">rel=</span><span class="mk3">"stylesheet"</span> <span class="mk2">type=</span><span class="mk3">"text/css" </span><span class="mk3">href="css/base.css"</span><span class="mk">&gt;</span>
-    <span class="mk">&lt;link</span> <span class="mk2">rel=</span><span class="mk3">"stylesheet"</span> <span class="mk2">href=</span><span class="mk3">"font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css"</span><span class="mk">&gt;</span>
-	
+    <span class="mk">&lt;link</span> <span class="mk2">rel=</span><span class=
+"mk3">"stylesheet"</span> <span class="mk2">type=</span><span class=
+"mk3">"text/css" </span><span class="mk3">href="css/base.css"</span><span class="mk">&gt;</span>
+    <span class="mk">&lt;link</span> <span class="mk2">rel=</span><span class=
+"mk3">"stylesheet"</span> <span class="mk2">href=</span><span class=
+"mk3">"font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css"</span><span class=
+"mk">&gt;</span>
+    
     <span class="mk">&lt;title&gt;</span>Branding<span class="mk">&lt;/title&gt;</span>
 <span class="mk">&lt;/head&gt;</span>
-	
+    
 <span class="mk">&lt;header&gt;</span>
 
-<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"above-head"</span><span class="mk">&gt;</span>
-	
-	<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"above-img"</span><span class="mk">&gt;</span>
-		<span class="mk">&lt;img</span> <span class="mk2">src=</span><span class="mk3">"files/FishCreekAnimalHospital_Logo_Horizontal.png"</span><span class="mk">&gt;</span>
-	<span class="mk">&lt;/div&gt;</span>
-	
-	<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"searchbox"</span><span class="mk">&gt;</span>
-		<span class="mk">&lt;form</span> <span class="mk2">action=</span><span class="mk3">"" </span><span class="mk2">method=</span><span class="mk3">"post"</span> <span class="mk2">name=</span><span class="mk3">"searchbox"</span><span class="mk">&gt;</span>
-                      <span class="mk">&lt;input</span> <span class="mk2">type=</span><span class="mk3">"text"</span> <span class="mk2">size=</span><span class="mk3">"55"</span> <span class="mk2">name=</span><span class="mk3">"search"</span> <span class="mk2">id=</span><span class="mk3">"search"</span> <span class="mk2">placeholder=</span><span class="mk3">"Search"</span><span class="mk">&gt;</span>
-                      <span class="mk">&lt;input</span> <span class="mk2">type=</span><span class="mk3">"submit"</span> <span class="mk2">name=</span><span class="mk3">"submit"</span> <span class="mk2">id=</span><span class="mk3">"submit"</span><span class="mk">&gt;</span>
-		<span class="mk">&lt;/form&gt;</span>
-	<span class="mk">&lt;/div&gt;</span>
+<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class=
+"mk3">"above-head"</span><span class="mk">&gt;</span>
+    
+    <span class="mk">&lt;div</span> <span class="mk2">class=</span><span class=
+"mk3">"above-img"</span><span class="mk">&gt;</span>
+        <span class="mk">&lt;img</span> <span class="mk2">src=</span><span class=
+"mk3">"files/FishCreekAnimalHospital_Logo_Horizontal.png"</span><span class="mk">&gt;</span>
+    <span class="mk">&lt;/div&gt;</span>
+    
+    <span class="mk">&lt;div</span> <span class="mk2">class=</span><span class=
+"mk3">"searchbox"</span><span class="mk">&gt;</span>
+        <span class="mk">&lt;form</span> <span class="mk2">action=</span><span class=
+"mk3">"" </span><span class="mk2">method=</span><span class="mk3">"post"</span> <span class=
+"mk2">name=</span><span class="mk3">"searchbox"</span><span class="mk">&gt;</span>
+                      <span class="mk">&lt;input</span> <span class="mk2">type=</span><span class=
+"mk3">"text"</span> <span class="mk2">size=</span><span class="mk3">"55"</span> <span class=
+"mk2">name=</span><span class="mk3">"search"</span> <span class="mk2">id=</span><span class=
+"mk3">"search"</span> <span class="mk2">placeholder=</span><span class=
+"mk3">"Search"</span><span class="mk">&gt;</span>
+                      <span class="mk">&lt;input</span> <span class="mk2">type=</span><span class=
+"mk3">"submit"</span> <span class="mk2">name=</span><span class="mk3">"submit"</span> <span class=
+"mk2">id=</span><span class="mk3">"submit"</span><span class="mk">&gt;</span>
+        <span class="mk">&lt;/form&gt;</span>
+    <span class="mk">&lt;/div&gt;</span>
 <span class="mk">&lt;/div&gt;</span>
 
 <span class="mk">&lt;/header&gt;</span>
 
 <span class="mk">&lt;nav&gt;</span>
-     <span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"main-nav"</span><span class="mk">&gt;</span>
-          <span class="mk">&lt;ul</span> <span class="mk2">class=</span><span class="mk3">"list-inline"</span><span class="mk">&gt;</span>
-               <span class="mk">&lt;li&gt;</span><span class="mk">&lt;a</span> <span class="mk2">href=</span><span class="mk3">"URL"</span><span class="mk">&gt;</span><span class="mk">&lt;span</span> <span class="mk2">class=</span><span class="mk3">"icon"</span><span class="mk">&gt;</span><span class="mk">&lt;i</span> <span class="mk2">class=</span><span class="mk3">"Necessary FontAwesome code"</span>&gt;<span class="mk">&lt;/span&gt;</span><span class="mk">&lt;/i&gt;</span>Link<span class="mk">&lt;/a&gt;&lt;/li&gt;
-               <span class="mk">&lt;li&gt;</span><span class="mk">&lt;a</span> <span class="mk2">href=</span><span class="mk3">"URL"</span><span class="mk">&gt;</span><span class="mk">&lt;span</span> <span class="mk2">class=</span><span class="mk3">"icon"</span><span class="mk">&gt;</span><span class="mk">&lt;i</span> <span class="mk2">class=</span><span class="mk3">"Necessary FontAwesome code"</span>&gt;<span class="mk">&lt;/span&gt;</span><span class="mk">&lt;/i&gt;</span></span>Link<span class="mk">&lt;/a&gt;&lt;/li&gt;</span>
+     <span class="mk">&lt;div</span> <span class="mk2">class=</span><span class=
+"mk3">"main-nav"</span><span class="mk">&gt;</span>
+          <span class="mk">&lt;ul</span> <span class="mk2">class=</span><span class=
+"mk3">"list-inline"</span><span class="mk">&gt;</span>
+               <span class="mk">&lt;li&gt;</span><span class="mk">&lt;a</span> <span class=
+"mk2">href=</span><span class="mk3">"URL"</span><span class="mk">&gt;</span><span class=
+"mk">&lt;span</span> <span class="mk2">class=</span><span class="mk3">"icon"</span><span class=
+"mk">&gt;</span><span class="mk">&lt;i</span> <span class="mk2">class=</span><span class=
+"mk3">"Necessary FontAwesome code"</span>&gt;<span class="mk">&lt;/span&gt;</span><span class=
+"mk">&lt;/i&gt;</span>Link<span class="mk">&lt;/a&gt;&lt;/li&gt;
+               <span class="mk">&lt;li&gt;</span><span class="mk">&lt;a</span> <span class=
+"mk2">href=</span><span class="mk3">"URL"</span><span class="mk">&gt;</span><span class=
+"mk">&lt;span</span> <span class="mk2">class=</span><span class="mk3">"icon"</span><span class=
+"mk">&gt;</span><span class="mk">&lt;i</span> <span class="mk2">class=</span><span class=
+"mk3">"Necessary FontAwesome code"</span>&gt;<span class="mk">&lt;/span&gt;</span><span class=
+"mk">&lt;/i&gt;</span></span>Link<span class="mk">&lt;/a&gt;&lt;/li&gt;</span>
           <span class="mk">&lt;/ul&gt;
      &lt;/div&gt;
 &lt;/nav&gt;
-	
+    
 &lt;body&gt;</span>
 
 <span class="mk2">...</span>
 
 <span class="mk">&lt;/body&gt;
 &lt;/html&gt;</span>
-</pre></code>
-</div>
+</code></pre>
+				</div>
 
 
-	
-<h3 a id="content">Basic Content Structure</a></h3>
-	<div class="box">There are two different content structures set up for this site. A full width container and a regular container that spans up to 1200px. Multiple containers can exist within a page to accomodate different components and conent areas. </div>
-	<h4>Full Width Container</h4>
-<div class="highlight">
-	<code><pre><span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"full-container"</span><span class="mk">&gt;</span>
+				<h3 id="content">Basic Content Structure</h3>
+
+
+				<div class="box">
+					There are two different content structures set up for this site. A full width container and a
+					regular container that spans up to 1200px. Multiple containers can exist within a page to
+					accomodate different components and conent areas.
+				</div>
+
+
+				<h4>Full Width Container</h4>
+
+
+				<div class="highlight">
+					<code></code>
+
+					<pre><code><span class="mk">&lt;div</span> <span class="mk2">class=</span><span class=
+					"mk3">"full-container"</span><span class="mk">&gt;</span>
 
 ...
 
-<span class="mk">&lt;/div&gt;</span></pre></code>
-</div>
-				
-	<h4>Container</h4>
-<div class="highlight">
-<code><pre><span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"container"</span><span class="mk">&gt;</span>
+<span class="mk">&lt;/div&gt;</span></code></pre>
+				</div>
+
+
+				<h4>Container</h4>
+
+
+				<div class="highlight">
+					<code></code>
+
+					<pre><code><span class="mk">&lt;div</span> <span class="mk2">class=</span><span class=
+					"mk3">"container"</span><span class="mk">&gt;</span>
 
 ...
 
-<span class="mk">&lt;/div&gt;</span></pre></code>
-</div>
-				
-	<h4>Container With Sidebar</h4>
-<div class="highlight">
-<code><pre><span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"container"</span><span class="mk">&gt;</span>
+<span class="mk">&lt;/div&gt;</span></code></pre>
+				</div>
 
-     <span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"main-content"</span><span class="mk">&gt;</span>
+
+				<h4>Container With Sidebar</h4>
+
+
+				<div class="highlight">
+					<code></code>
+
+					<pre><code><span class="mk">&lt;div</span> <span class="mk2">class=</span><span class=
+					"mk3">"container"</span><span class="mk">&gt;</span>
+
+     <span class="mk">&lt;div</span> <span class="mk2">class=</span><span class=
+"mk3">"main-content"</span><span class="mk">&gt;</span>
 
      ...
 
      <span class="mk">&lt;/div&gt;</span>
-	 
-     <span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"sidebar"</span><span class="mk">&gt;</span>
+     
+     <span class="mk">&lt;div</span> <span class="mk2">class=</span><span class=
+"mk3">"sidebar"</span><span class="mk">&gt;</span>
 
      ...
 
      <span class="mk">&lt;/div&gt;</span>
-	 
-<span class="mk">&lt;/div&gt;</span></pre></code>
-</div>
-				
-<h3 a id="button">Buttons</a></h3>
-	<h4>Standard</h4>
+     
+<span class="mk">&lt;/div&gt;</span></code></pre>
+				</div>
 
-		<table class="table">
-			<thead>
-				 <tr>
-				 	<th>Type</th>
-				 	<th>Example</th>
-				 	<th>Markup</th>
-				 </tr>
-			</thead>
-				 <tbody>
-				 	<tr>
-				 		<td>Primary Button</td>
-				 		<td>
-							<a href="#" class="btn primary-btn">Primary Button</a>
-						</td>
-				 			<td>
-								<code><pre>&lt;a href="#" class="btn primary-btn"&gt;Primary Button&lt;/a&gt;</pre></code>
-							</td>
-				 		</tr>
-				 		<tr>
-				 			<td>Secondary Button</td>
-				 			<td>
-								<a href="#" class="btn secondary-btn">Secondary Button</a>
-							</td>
-				 			<td>
-								<code><pre>&lt;a href="#" class="btn secondary-btn"&gt;Secondary Button&lt;/a&gt;</pre></code>
-							</td>
-				 		</tr>
-				 		<tr>
-				 			<td>Terciary Button</td>
-				 			<td>
-								<a href="#" class="btn terciary-btn">Terciary Button</a>
-							</td>
-				 			<td>
-								<code><pre>&lt;a href="#" class="btn terciary-btn"&gt;Terciary Button&lt;/a&gt;</pre></code>
-							</td>
-				 		</tr>
-				 	</tbody>
-				</table>
-			
-	<h4>Custom Sizes</h4>
-		
-		<table class="table">
-			<thead>
-				<tr>
-					<th>Class Modifier</th>
-					<th>Example</th>
-					<th>Markup</th>
-				</tr>
-			</thead>
-				<tbody>
-				 	<tr>
-				 		<td>xs-btn</td>
-				 			<td>
-								<a href="#" class="btn primary-btn xs-btn">Primary Button</a>
-							</td>
-				 			<td>
-								<code><pre>&lt;a href="#" class="btn primary-btn xs-btn"&gt;Primary Button&lt;/a&gt;</pre></code>
-							</td>
-				 	</tr>
-				 	<tr>
-				 		<td>sm-btn</td>
-				 			<td>
-								<a href="#" class="btn primary-btn sm-btn">Primary Button</a>
-							</td>
-				 			<td>
-								<code><pre>&lt;a href="#" class="btn primary-btn sm-btn"&gt;Primary Button&lt;/a&gt;</pre></code>
-							</td>
-				 	</tr>
-				 	<tr>
-				 		<td>(No Modifier)</td>
-				 			<td>
-								<a href="#" class="btn primary-btn">Primary Button</a>
-							</td>
-				 			<td>
-								<code><pre>&lt;a href="#" class="btn primary-btn"&gt;Primary Button&lt;/a&gt;</pre></code>
-							</td>
-				 	</tr>
-					<tr>
-				 			<td>lg-btn</td>
-				 			<td>
-								<a href="#" class="btn primary-btn lg-btn">Primary Button</a>
-							</td>
-				 			<td>
-								<code><pre>&lt;a href="#" class="btn primary-btn lg-btn"&gt;Primary Button&lt;/a&gt;</pre></code>
-							</td>
-				 		</tr>
+
+				<h3 id="button">Buttons</h3>
+
+
+				<h4>Standard</h4>
+
+
+				<table class="table">
+					<thead>
 						<tr>
-				 			<td>xl-btn</td>
-				 			<td>
-								<a href="#" class="btn primary-btn xl-btn">Primary Button</a>
-							</td>
-				 			<td>
-								<code><pre>&lt;a href="#" class="btn primary-btn xl-btn"&gt;Primary Button&lt;/a&gt;</pre></code>
-							</td>
-				 		</tr>
-				 	</tbody>
-			</table>
-				
-<h2 a id="form">Forms</a></h2>
-	<h3>Basic Forms</h3>
-		<table class="table">
-			<thead>
-				 <tr>
-				 	<th>Example</th>
-				 </tr>
-			</thead>
-			<tbody>
-				 <tr>
-				 	<td>
-<form>
-	<div class="form-group">
-		<label for="username">Username:</label>
-		
-		<input id="username" type="text" class="form-control" placeholder="Username" />
-	</div>
-		
-	<div class="form-group">
-		<label for="email">Email:</label>
-		<input id="email" type="email" class="form-control" placeholder="Email" />
-	</div>
-		
-	<div class="form-group">
-		<p>Join our newsletter and start receiving our emails:</p>
-		<div class="form-check">
-			
-			<input type="radio" name="frequency" id="daily" value="Daily" checked/><label for="daily">Daily</label>
-		</div>
-		
-		<div class="form-check">
-			
-			<input type="radio" name="frequency" id="weekly" value="weekly"/><label for="weekly">Weekly</label>
-		</div>	
-		<div class="form-check">
-			
-			<input type="radio" name="frequency" id="bi-weekly" value="bi-weekly"/><label for="bi-weekly">Bi-Weekly</label>
-		</div>	
-		<div class="form-check">
-			
-			<input type="radio" name="frequency" id="monthly" value="monthly"/><label for="monthly">Monthly</label>
-		</div>
-	</div>
-	<div class="form-group">
-		<button type="submit" class="btn primary-btn">Submit</button>
-	</div>
-</form>
-				 </td>
-			</tr>
-	</tbody>
-</table>
-<div class="highlight">
-	<code><pre><span class="mk">&lt;form&gt;</span>
-	<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"form-group"</span><span class="mk">&gt;</span>
-		<span class="mk">&lt;label</span> <span class="mk2">for=</span><span class="mk3">"username"</span><span class="mk">&gt;</span>Username:<span class="mk">&lt;/label&gt;</span>
-		<span class="mk">&lt;input</span> <span class="mkw">id=</span><span class="mk3">"username" </span><span class="mk2">type=</span><span class="mk3">"text"</span> <span class="mk2">class=</span><span class="mk3">"form-control"</span> <span class="mk2">placeholder=</span><span class="mk3">"Username"</span> <span class="mk">/&gt;</span>
-	<span class="mk">&lt;/div&gt;</span>
-	<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"form-group"&gt;</span>
-		<span class="mk">&lt;label</span> <span class="mk2">for=</span><span class="mk3">"email"</span><span class="mk">&gt;</span>Email:<span class="mk">&lt;/label&gt;</span>
-		<span class="mk">&lt;input</span> <span class="mk2">id=</span><span class="mk3">"email" </span><span class="mk2">type=</span><span class="mk3">"email"</span> <span class="mk2">class=</span><span class="mk3">"form-control"</span> <span class="mk2">placeholder=</span><span class="mk3">"Email"</span> <span class="mk">/&gt;</span>
-	<span class="mk">&lt;/div&gt;</span>
-	<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"form-group"</span><span class="mk">&gt;</span>
-		<span class="mk">&lt;p&gt;</span>Join our newsletter and start receiving our emails:<span class="mk">&lt;/p&gt;</span>
-		<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"form-check"</span><span class="mk">&gt;</span>
-			
-			<span class="mk">&lt;input</span> <span class="mk2">type=</span><span class="mk3">"radio"</span> <span class="mk2">name=</span><span class="mk3">"frequency"</span> <span class="mk2">id=</span><span class="mk3">"daily"</span> <span class="mk2">value=</span><span class="mk3">"Daily"</span> <span class="mk2">checked/</span><span class="mk">&gt;</span><span class="mk">&lt;label</span> <span class="mk2">for=</span><span class="mk3">"daily"</span><span class="mk">&gt;</span>Daily<span class="mk">&lt;/label&gt;</span>
-		<span class="mk">&lt;/div&gt;</span>
-		
-		<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"form-check"</span><span class="mk">&gt;</span>
-			
-			<span class="mk">&lt;input</span> <span class="mk2">type=</span><span class="mk3">"radio"</span> <span class="mk2">name=</span><span class="mk3">"frequency"</span> <span class="mk2">id=</span><span class="mk3">"weekly"</span> <span class="mk2">value=</span><span class="mk3">"weekly"</span><span class="mk">&gt;</span><span class="mk">&lt;label</span> <span class="mk2">for=</span><span class="mk3">"weekly"</span><span class="mk">&gt;</span>Weekly<span class="mk">&lt;/label&gt;</span>
-		<span class="mk">&lt;/div&gt;</span>
-			
-		<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"form-check"</span><span class="mk">&gt;</span>
-			
-			<span class="mk">&lt;input</span> <span class="mk2">type=</span><span class="mk3">"radio"</span> <span class="mk2">name=</span><span class="mk3">"frequency"</span> <span class="mk2">id=</span><span class="mk3">"bi-weekly"</span> <span class="mk2">value=</span><span class="mk3">"bi-weekly"</span><span class="mk">&gt;</span><span class="mk">&lt;label</span> <span class="mk2">for=</span><span class="mk3">"bi-weekly"</span><span class="mk">&gt;</span>Bi-Weekly<span class="mk">&lt;/label&gt;</span>
-		<span class="mk">&lt;/div&gt;</span>
-			
-		<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"form-check"</span><span class="mk">&gt;</span>
-			
-			<span class="mk">&lt;input</span> <span class="mk2">type=</span><span class="mk3">"radio"</span> <span class="mk2">name=</span><span class="mk3">"frequency"</span> <span class="mk2">id=</span><span class="mk3">"monthly"</span> <span class="mk2">value=</span><span class="mk3">"monthly"</span><span class="mk">&gt;</span><span class="mk">&lt;label</span> <span class="mk2">for=</span><span class="mk3">"monthly"</span><span class="mk">&gt;</span>Monthly<span class="mk">&lt;/label&gt;</span>
-		<span class="mk">&lt;/div&gt;</span>
-	<span class="mk">&lt;/div&gt;</span>
-	<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"form-group"</span><span class="mk">&gt;</span>
-		<span class="mk">&lt;button</span> <span class="mk2">type=</span><span class="mk3">"submit"</span> <span class="mk2">class=</span><span class="mk3">"btn primary-btn"</span><span class="mk">&gt;</span>Submit<span class="mk">&lt;/button&gt;</span>
-	<span class="mk">&lt;/div&gt;
-&lt;/form&gt;</span></pre></code>
-</div>
-				
-<h4>Inline Form Elements</h4>
-	<table class="table">
-		<thead>
-			<tr>
-				<th>Example</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>
-	<form class="inline-form">
-	<div class="form-group">
-		<label for="username2">Username:</label>
-		
-		<input id="username2" type="text" class="form-control" placeholder="Username" />
-	</div>
-		
-	<div class="form-group">
-		<label for="email2">Email:</label>
-		<input id="email2" type="email" class="form-control" placeholder="Email" />
-	</div>
-		
-	<div class="form-group">
-		<p>Join our newsletter and start receiving our emails:</p>
-		<div class="form-check">
-			
-			<input type="radio" name="frequency" id="daily2" value="Daily" checked/><label for="daily2">Daily</label>
-		</div>
-		
-		<div class="form-check">
-			
-			<input type="radio" name="frequency" id="weekly2" value="weekly"/><label for="weekly2">Weekly</label>
-		</div>	
-		<div class="form-check">
-			
-			<input type="radio" name="frequency" id="bi-weekly2" value="bi-weekly"/><label for="bi-weekly2">Bi-Weekly</label>
-		</div>	
-		<div class="form-check">
-			
-			<input type="radio" name="frequency" id="monthly2" value="monthly"/><label for="monthly2">Monthly</label>
-		</div>
-	</div>
-	<div class="form-group">
-		<button type="submit" class="btn primary-btn">Submit</button>
-	</div>
-</form>
-				</td>
-			</tr>
-		</tbody>
-</table>
-<div class="highlight">
-	<code><pre><span class="mk">&lt;form</span> <span class="mk2">class=</span><span class="mk3">"inline-form"</span><span class="mk">&gt;</span>
-	<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"form-group"</span><span class="mk">&gt;</span>
-		<span class="mk">&lt;label</span> <span class="mk2">for=</span><span class="mk3">"username"</span><span class="mk">&gt;</span>Username:<span class="mk">&lt;/label&gt;</span>
-		<span class="mk">&lt;input</span> <span class="mkw">id=</span><span class="mk3">"username" </span><span class="mk2">type=</span><span class="mk3">"text"</span> <span class="mk2">class=</span><span class="mk3">"form-control"</span> <span class="mk2">placeholder=</span><span class="mk3">"Username"</span> <span class="mk">/&gt;</span>
-	<span class="mk">&lt;/div&gt;</span>
-	<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"form-group"&gt;</span>
-		<span class="mk">&lt;label</span> <span class="mk2">for=</span><span class="mk3">"email"</span><span class="mk">&gt;</span>Email:<span class="mk">&lt;/label&gt;</span>
-		<span class="mk">&lt;input</span> <span class="mk2">id=</span><span class="mk3">"email" </span><span class="mk2">type=</span><span class="mk3">"email"</span> <span class="mk2">class=</span><span class="mk3">"form-control"</span> <span class="mk2">placeholder=</span><span class="mk3">"Email"</span> <span class="mk">/&gt;</span>
-	<span class="mk">&lt;/div&gt;</span>
-	<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"form-group"</span><span class="mk">&gt;</span>
-		<span class="mk">&lt;p&gt;</span>Join our newsletter and start receiving our emails:<span class="mk">&lt;/p&gt;</span>
-		<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"form-check"</span><span class="mk">&gt;</span>
-			
-			<span class="mk">&lt;input</span> <span class="mk2">type=</span><span class="mk3">"radio"</span> <span class="mk2">name=</span><span class="mk3">"frequency"</span> <span class="mk2">id=</span><span class="mk3">"daily"</span> <span class="mk2">value=</span><span class="mk3">"Daily"</span> <span class="mk2">checked/</span><span class="mk">&gt;</span><span class="mk">&lt;label</span> <span class="mk2">for=</span><span class="mk3">"daily"</span><span class="mk">&gt;</span>Daily<span class="mk">&lt;/label&gt;</span>
-		<span class="mk">&lt;/div&gt;</span>
-		
-		<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"form-check"</span><span class="mk">&gt;</span>
-			
-			<span class="mk">&lt;input</span> <span class="mk2">type=</span><span class="mk3">"radio"</span> <span class="mk2">name=</span><span class="mk3">"frequency"</span> <span class="mk2">id=</span><span class="mk3">"weekly"</span> <span class="mk2">value=</span><span class="mk3">"weekly"</span><span class="mk">&gt;</span><span class="mk">&lt;label</span> <span class="mk2">for=</span><span class="mk3">"weekly"</span><span class="mk">&gt;</span>Weekly<span class="mk">&lt;/label&gt;</span>
-		<span class="mk">&lt;/div&gt;</span>
-			
-		<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"form-check"</span><span class="mk">&gt;</span>
-			
-			<span class="mk">&lt;input</span> <span class="mk2">type=</span><span class="mk3">"radio"</span> <span class="mk2">name=</span><span class="mk3">"frequency"</span> <span class="mk2">id=</span><span class="mk3">"bi-weekly"</span> <span class="mk2">value=</span><span class="mk3">"bi-weekly"</span><span class="mk">&gt;</span><span class="mk">&lt;label</span> <span class="mk2">for=</span><span class="mk3">"bi-weekly"</span><span class="mk">&gt;</span>Bi-Weekly<span class="mk">&lt;/label&gt;</span>
-		<span class="mk">&lt;/div&gt;</span>
-			
-		<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"form-check"</span><span class="mk">&gt;</span>
-			
-			<span class="mk">&lt;input</span> <span class="mk2">type=</span><span class="mk3">"radio"</span> <span class="mk2">name=</span><span class="mk3">"frequency"</span> <span class="mk2">id=</span><span class="mk3">"monthly"</span> <span class="mk2">value=</span><span class="mk3">"monthly"</span><span class="mk">&gt;</span><span class="mk">&lt;label</span> <span class="mk2">for=</span><span class="mk3">"monthly"</span><span class="mk">&gt;</span>Monthly<span class="mk">&lt;/label&gt;</span>
-		<span class="mk">&lt;/div&gt;</span>
-	<span class="mk">&lt;/div&gt;</span>
-	<span class="mk">&lt;div</span> <span class="mk2">class=</span><span class="mk3">"form-group"</span><span class="mk">&gt;</span>
-		<span class="mk">&lt;button</span> <span class="mk2">type=</span><span class="mk3">"submit"</span> <span class="mk2">class=</span><span class="mk3">"btn primary-btn"</span><span class="mk">&gt;</span>Submit<span class="mk">&lt;/button&gt;</span>
-	<span class="mk">&lt;/div&gt;
-&lt;/form&gt;</span></pre></code>
-</div>
+							<th>Type</th>
 
-<div class="toc">
-			<ul>
-				<li><span class="tocheader">Branding</span>
+							<th>Example</th>
 
-					<li><a href="#color">Color Scheme</a>
-						<ul>
-								
-						</ul>
-							<li><a href="#mark">Markup</a></li>
-						<ul>
-							<li><a href="#content">Basic Content Structure</a></li>
-							<li><a href="#button">Buttons</a></li>
-						</ul>
-							<li><a href="#form">Forms</a></li>
+							<th>Markup</th>
+						</tr>
+					</thead>
+
+
+					<tbody>
+						<tr>
+							<td>Primary Button</td>
+
+							<td>
+								<a class="btn primary-btn" href="#">Primary Button</a>
+							</td>
+
+							<td>
+								<code></code>
+
+								<pre><code>&lt;a href="#" class="btn primary-btn"&gt;Primary Button&lt;/a&gt;</code></pre>
+							</td>
+						</tr>
+
+
+						<tr>
+							<td>Secondary Button</td>
+
+							<td>
+								<a class="btn secondary-btn" href="#">Secondary Button</a>
+							</td>
+
+							<td>
+								<code></code>
+
+								<pre>
+								<code>&lt;a href="#" class="btn secondary-btn"&gt;Secondary Button&lt;/a&gt;</code></pre>
+							</td>
+						</tr>
+
+
+						<tr>
+							<td>Terciary Button</td>
+
+							<td>
+								<a class="btn terciary-btn" href="#">Terciary Button</a>
+							</td>
+
+							<td>
+								<code></code>
+
+								<pre>
+								<code>&lt;a href="#" class="btn terciary-btn"&gt;Terciary Button&lt;/a&gt;</code></pre>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+
+
+				<h4>Custom Sizes</h4>
+
+
+				<table class="table">
+					<thead>
+						<tr>
+							<th>Class Modifier</th>
+
+							<th>Example</th>
+
+							<th>Markup</th>
+						</tr>
+					</thead>
+
+
+					<tbody>
+						<tr>
+							<td>xs-btn</td>
+
+							<td>
+								<a class="btn primary-btn xs-btn" href="#">Primary Button</a>
+							</td>
+
+							<td>
+								<code></code>
+
+								<pre>
+								<code>&lt;a href="#" class="btn primary-btn xs-btn"&gt;Primary Button&lt;/a&gt;</code></pre>
+							</td>
+						</tr>
+
+
+						<tr>
+							<td>sm-btn</td>
+
+							<td>
+								<a class="btn primary-btn sm-btn" href="#">Primary Button</a>
+							</td>
+
+							<td>
+								<code></code>
+
+								<pre>
+								<code>&lt;a href="#" class="btn primary-btn sm-btn"&gt;Primary Button&lt;/a&gt;</code></pre>
+							</td>
+						</tr>
+
+
+						<tr>
+							<td>(No Modifier)</td>
+
+							<td>
+								<a class="btn primary-btn" href="#">Primary Button</a>
+							</td>
+
+							<td>
+								<code></code>
+
+								<pre><code>&lt;a href="#" class="btn primary-btn"&gt;Primary Button&lt;/a&gt;</code></pre>
+							</td>
+						</tr>
+
+
+						<tr>
+							<td>lg-btn</td>
+
+							<td>
+								<a class="btn primary-btn lg-btn" href="#">Primary Button</a>
+							</td>
+
+							<td>
+								<code></code>
+
+								<pre>
+								<code>&lt;a href="#" class="btn primary-btn lg-btn"&gt;Primary Button&lt;/a&gt;</code></pre>
+							</td>
+						</tr>
+
+
+						<tr>
+							<td>xl-btn</td>
+
+							<td>
+								<a class="btn primary-btn xl-btn" href="#">Primary Button</a>
+							</td>
+
+							<td>
+								<code></code>
+
+								<pre>
+								<code>&lt;a href="#" class="btn primary-btn xl-btn"&gt;Primary Button&lt;/a&gt;</code></pre>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+
+
+				<h2 id="form">Forms</h2>
+
+
+				<h3>Basic Forms</h3>
+
+
+				<table class="table">
+					<thead>
+						<tr>
+							<th>Example</th>
+						</tr>
+					</thead>
+
+
+					<tbody>
+						<tr>
+							<td>
+								<form>
+									<div class="form-group">
+										<label for="username">Username:</label> <input class="form-control" id="username"
+										placeholder="Username" type="text">
+									</div>
+
+
+									<div class="form-group">
+										<label for="email">Email:</label> <input class="form-control" id="email" placeholder=
+										"Email" type="email">
+									</div>
+
+
+									<div class="form-group">
+										<p>Join our newsletter and start receiving our emails:</p>
+
+
+										<div class="form-check">
+											<input id="daily" name="frequency" type="radio" value="Daily"><label for=
+											"daily">Daily</label>
+										</div>
+
+
+										<div class="form-check">
+											<input id="weekly" name="frequency" type="radio" value="weekly"><label for=
+											"weekly">Weekly</label>
+										</div>
+
+
+										<div class="form-check">
+											<input id="bi-weekly" name="frequency" type="radio" value="bi-weekly"><label for=
+											"bi-weekly">Bi-Weekly</label>
+										</div>
+
+
+										<div class="form-check">
+											<input id="monthly" name="frequency" type="radio" value="monthly"><label for=
+											"monthly">Monthly</label>
+										</div>
+									</div>
+
+
+									<div class="form-group">
+										<button class="btn primary-btn" type="submit">Submit</button>
+									</div>
+								</form>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+
+
+				<div class="highlight">
+					<code></code>
+
+					<pre><code><span class="mk">&lt;form&gt;</span>
+    <span class="mk">&lt;div</span> <span class="mk2">class=</span><span class=
+"mk3">"form-group"</span><span class="mk">&gt;</span>
+        <span class="mk">&lt;label</span> <span class="mk2">for=</span><span class=
+"mk3">"username"</span><span class="mk">&gt;</span>Username:<span class="mk">&lt;/label&gt;</span>
+        <span class="mk">&lt;input</span> <span class="mkw">id=</span><span class=
+"mk3">"username" </span><span class="mk2">type=</span><span class="mk3">"text"</span> <span class=
+"mk2">class=</span><span class="mk3">"form-control"</span> <span class=
+"mk2">placeholder=</span><span class="mk3">"Username"</span> <span class="mk">/&gt;</span>
+    <span class="mk">&lt;/div&gt;</span>
+    <span class="mk">&lt;div</span> <span class="mk2">class=</span><span class=
+"mk3">"form-group"&gt;</span>
+        <span class="mk">&lt;label</span> <span class="mk2">for=</span><span class=
+"mk3">"email"</span><span class="mk">&gt;</span>Email:<span class="mk">&lt;/label&gt;</span>
+        <span class="mk">&lt;input</span> <span class="mk2">id=</span><span class=
+"mk3">"email" </span><span class="mk2">type=</span><span class="mk3">"email"</span> <span class=
+"mk2">class=</span><span class="mk3">"form-control"</span> <span class=
+"mk2">placeholder=</span><span class="mk3">"Email"</span> <span class="mk">/&gt;</span>
+    <span class="mk">&lt;/div&gt;</span>
+    <span class="mk">&lt;div</span> <span class="mk2">class=</span><span class=
+"mk3">"form-group"</span><span class="mk">&gt;</span>
+        <span class=
+"mk">&lt;p&gt;</span>Join our newsletter and start receiving our emails:<span class=
+"mk">&lt;/p&gt;</span>
+        <span class="mk">&lt;div</span> <span class="mk2">class=</span><span class=
+"mk3">"form-check"</span><span class="mk">&gt;</span>
+            
+            <span class="mk">&lt;input</span> <span class="mk2">type=</span><span class=
+"mk3">"radio"</span> <span class="mk2">name=</span><span class=
+"mk3">"frequency"</span> <span class="mk2">id=</span><span class="mk3">"daily"</span> <span class=
+"mk2">value=</span><span class="mk3">"Daily"</span> <span class="mk2">checked/</span><span class=
+"mk">&gt;</span><span class="mk">&lt;label</span> <span class="mk2">for=</span><span class=
+"mk3">"daily"</span><span class="mk">&gt;</span>Daily<span class="mk">&lt;/label&gt;</span>
+        <span class="mk">&lt;/div&gt;</span>
+        
+        <span class="mk">&lt;div</span> <span class="mk2">class=</span><span class=
+"mk3">"form-check"</span><span class="mk">&gt;</span>
+            
+            <span class="mk">&lt;input</span> <span class="mk2">type=</span><span class=
+"mk3">"radio"</span> <span class="mk2">name=</span><span class=
+"mk3">"frequency"</span> <span class="mk2">id=</span><span class="mk3">"weekly"</span> <span class=
+"mk2">value=</span><span class="mk3">"weekly"</span><span class="mk">&gt;</span><span class=
+"mk">&lt;label</span> <span class="mk2">for=</span><span class="mk3">"weekly"</span><span class=
+"mk">&gt;</span>Weekly<span class="mk">&lt;/label&gt;</span>
+        <span class="mk">&lt;/div&gt;</span>
+            
+        <span class="mk">&lt;div</span> <span class="mk2">class=</span><span class=
+"mk3">"form-check"</span><span class="mk">&gt;</span>
+            
+            <span class="mk">&lt;input</span> <span class="mk2">type=</span><span class=
+"mk3">"radio"</span> <span class="mk2">name=</span><span class=
+"mk3">"frequency"</span> <span class="mk2">id=</span><span class=
+"mk3">"bi-weekly"</span> <span class="mk2">value=</span><span class=
+"mk3">"bi-weekly"</span><span class="mk">&gt;</span><span class="mk">&lt;label</span> <span class=
+"mk2">for=</span><span class="mk3">"bi-weekly"</span><span class=
+"mk">&gt;</span>Bi-Weekly<span class="mk">&lt;/label&gt;</span>
+        <span class="mk">&lt;/div&gt;</span>
+            
+        <span class="mk">&lt;div</span> <span class="mk2">class=</span><span class=
+"mk3">"form-check"</span><span class="mk">&gt;</span>
+            
+            <span class="mk">&lt;input</span> <span class="mk2">type=</span><span class=
+"mk3">"radio"</span> <span class="mk2">name=</span><span class=
+"mk3">"frequency"</span> <span class="mk2">id=</span><span class=
+"mk3">"monthly"</span> <span class="mk2">value=</span><span class=
+"mk3">"monthly"</span><span class="mk">&gt;</span><span class="mk">&lt;label</span> <span class=
+"mk2">for=</span><span class="mk3">"monthly"</span><span class="mk">&gt;</span>Monthly<span class=
+"mk">&lt;/label&gt;</span>
+        <span class="mk">&lt;/div&gt;</span>
+    <span class="mk">&lt;/div&gt;</span>
+    <span class="mk">&lt;div</span> <span class="mk2">class=</span><span class=
+"mk3">"form-group"</span><span class="mk">&gt;</span>
+        <span class="mk">&lt;button</span> <span class="mk2">type=</span><span class=
+"mk3">"submit"</span> <span class="mk2">class=</span><span class=
+"mk3">"btn primary-btn"</span><span class="mk">&gt;</span>Submit<span class=
+"mk">&lt;/button&gt;</span>
+    <span class="mk">&lt;/div&gt;
+&lt;/form&gt;</span></code></pre>
+				</div>
+
+
+				<h4>Inline Form Elements</h4>
+
+
+				<table class="table">
+					<thead>
+						<tr>
+							<th>Example</th>
+						</tr>
+					</thead>
+
+
+					<tbody>
+						<tr>
+							<td>
+								<form class="inline-form">
+									<div class="form-group">
+										<label for="username2">Username:</label> <input class="form-control" id="username2"
+										placeholder="Username" type="text">
+									</div>
+
+
+									<div class="form-group">
+										<label for="email2">Email:</label> <input class="form-control" id="email2" placeholder=
+										"Email" type="email">
+									</div>
+
+
+									<div class="form-group">
+										<p>Join our newsletter and start receiving our emails:</p>
+
+
+										<div class="form-check">
+											<input id="daily2" name="frequency" type="radio" value="Daily"><label for=
+											"daily2">Daily</label>
+										</div>
+
+
+										<div class="form-check">
+											<input id="weekly2" name="frequency" type="radio" value="weekly"><label for=
+											"weekly2">Weekly</label>
+										</div>
+
+
+										<div class="form-check">
+											<input id="bi-weekly2" name="frequency" type="radio" value="bi-weekly"><label for=
+											"bi-weekly2">Bi-Weekly</label>
+										</div>
+
+
+										<div class="form-check">
+											<input id="monthly2" name="frequency" type="radio" value="monthly"><label for=
+											"monthly2">Monthly</label>
+										</div>
+									</div>
+
+
+									<div class="form-group">
+										<button class="btn primary-btn" type="submit">Submit</button>
+									</div>
+								</form>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+
+
+				<div class="highlight">
+					<code></code>
+
+					<pre><code><span class="mk">&lt;form</span> <span class="mk2">class=</span><span class=
+					"mk3">"inline-form"</span><span class="mk">&gt;</span>
+    <span class="mk">&lt;div</span> <span class="mk2">class=</span><span class=
+"mk3">"form-group"</span><span class="mk">&gt;</span>
+        <span class="mk">&lt;label</span> <span class="mk2">for=</span><span class=
+"mk3">"username"</span><span class="mk">&gt;</span>Username:<span class="mk">&lt;/label&gt;</span>
+        <span class="mk">&lt;input</span> <span class="mkw">id=</span><span class=
+"mk3">"username" </span><span class="mk2">type=</span><span class="mk3">"text"</span> <span class=
+"mk2">class=</span><span class="mk3">"form-control"</span> <span class=
+"mk2">placeholder=</span><span class="mk3">"Username"</span> <span class="mk">/&gt;</span>
+    <span class="mk">&lt;/div&gt;</span>
+    <span class="mk">&lt;div</span> <span class="mk2">class=</span><span class=
+"mk3">"form-group"&gt;</span>
+        <span class="mk">&lt;label</span> <span class="mk2">for=</span><span class=
+"mk3">"email"</span><span class="mk">&gt;</span>Email:<span class="mk">&lt;/label&gt;</span>
+        <span class="mk">&lt;input</span> <span class="mk2">id=</span><span class=
+"mk3">"email" </span><span class="mk2">type=</span><span class="mk3">"email"</span> <span class=
+"mk2">class=</span><span class="mk3">"form-control"</span> <span class=
+"mk2">placeholder=</span><span class="mk3">"Email"</span> <span class="mk">/&gt;</span>
+    <span class="mk">&lt;/div&gt;</span>
+    <span class="mk">&lt;div</span> <span class="mk2">class=</span><span class=
+"mk3">"form-group"</span><span class="mk">&gt;</span>
+        <span class=
+"mk">&lt;p&gt;</span>Join our newsletter and start receiving our emails:<span class=
+"mk">&lt;/p&gt;</span>
+        <span class="mk">&lt;div</span> <span class="mk2">class=</span><span class=
+"mk3">"form-check"</span><span class="mk">&gt;</span>
+            
+            <span class="mk">&lt;input</span> <span class="mk2">type=</span><span class=
+"mk3">"radio"</span> <span class="mk2">name=</span><span class=
+"mk3">"frequency"</span> <span class="mk2">id=</span><span class="mk3">"daily"</span> <span class=
+"mk2">value=</span><span class="mk3">"Daily"</span> <span class="mk2">checked/</span><span class=
+"mk">&gt;</span><span class="mk">&lt;label</span> <span class="mk2">for=</span><span class=
+"mk3">"daily"</span><span class="mk">&gt;</span>Daily<span class="mk">&lt;/label&gt;</span>
+        <span class="mk">&lt;/div&gt;</span>
+        
+        <span class="mk">&lt;div</span> <span class="mk2">class=</span><span class=
+"mk3">"form-check"</span><span class="mk">&gt;</span>
+            
+            <span class="mk">&lt;input</span> <span class="mk2">type=</span><span class=
+"mk3">"radio"</span> <span class="mk2">name=</span><span class=
+"mk3">"frequency"</span> <span class="mk2">id=</span><span class="mk3">"weekly"</span> <span class=
+"mk2">value=</span><span class="mk3">"weekly"</span><span class="mk">&gt;</span><span class=
+"mk">&lt;label</span> <span class="mk2">for=</span><span class="mk3">"weekly"</span><span class=
+"mk">&gt;</span>Weekly<span class="mk">&lt;/label&gt;</span>
+        <span class="mk">&lt;/div&gt;</span>
+            
+        <span class="mk">&lt;div</span> <span class="mk2">class=</span><span class=
+"mk3">"form-check"</span><span class="mk">&gt;</span>
+            
+            <span class="mk">&lt;input</span> <span class="mk2">type=</span><span class=
+"mk3">"radio"</span> <span class="mk2">name=</span><span class=
+"mk3">"frequency"</span> <span class="mk2">id=</span><span class=
+"mk3">"bi-weekly"</span> <span class="mk2">value=</span><span class=
+"mk3">"bi-weekly"</span><span class="mk">&gt;</span><span class="mk">&lt;label</span> <span class=
+"mk2">for=</span><span class="mk3">"bi-weekly"</span><span class=
+"mk">&gt;</span>Bi-Weekly<span class="mk">&lt;/label&gt;</span>
+        <span class="mk">&lt;/div&gt;</span>
+            
+        <span class="mk">&lt;div</span> <span class="mk2">class=</span><span class=
+"mk3">"form-check"</span><span class="mk">&gt;</span>
+            
+            <span class="mk">&lt;input</span> <span class="mk2">type=</span><span class=
+"mk3">"radio"</span> <span class="mk2">name=</span><span class=
+"mk3">"frequency"</span> <span class="mk2">id=</span><span class=
+"mk3">"monthly"</span> <span class="mk2">value=</span><span class=
+"mk3">"monthly"</span><span class="mk">&gt;</span><span class="mk">&lt;label</span> <span class=
+"mk2">for=</span><span class="mk3">"monthly"</span><span class="mk">&gt;</span>Monthly<span class=
+"mk">&lt;/label&gt;</span>
+        <span class="mk">&lt;/div&gt;</span>
+    <span class="mk">&lt;/div&gt;</span>
+    <span class="mk">&lt;div</span> <span class="mk2">class=</span><span class=
+"mk3">"form-group"</span><span class="mk">&gt;</span>
+        <span class="mk">&lt;button</span> <span class="mk2">type=</span><span class=
+"mk3">"submit"</span> <span class="mk2">class=</span><span class=
+"mk3">"btn primary-btn"</span><span class="mk">&gt;</span>Submit<span class=
+"mk">&lt;/button&gt;</span>
+    <span class="mk">&lt;/div&gt;
+&lt;/form&gt;</span></code></pre>
+				</div>
+
+
+				<div class="toc">
+					<ul>
+						<li><span class="tocheader">Branding</span>
+						</li>
+
+
+						<li>
+							<a href="#color">Color Scheme</a>
+
+							<ul>
+							</ul>
+						</li>
+
+
+						<li>
+							<a href="#mark">Markup</a>
+						</li>
+
+
+						<li style="list-style: none; display: inline">
+							<ul>
+								<li>
+									<a href="#content">Basic Content Structure</a>
+								</li>
+
+
+								<li>
+									<a href="#button">Buttons</a>
+								</li>
+							</ul>
+						</li>
+
+
+						<li>
+							<a href="#form">Forms</a>
+						</li>
 					</ul>
-				</li>
+				</div>
+			</div>
 		</div>
 	</div>
-</div>
 
+
+	<footer>
+		<div class="footer-container">
+			<div class="footer-img"><img src="Files/FishCreekAnimalHospital_Logo_Horizontal.png">
+			</div>
+
+
+			<div class="footer-text">
+				<span class="footer-words">CONTACT INFORMATION:<br>
+				817-721-1234<br>
+				<a href="mailto:info@fishcreek.com">info@fishcreek.com</a><br></span>
+			</div>
+			<span class="footer-words"></span>
+
+			<div class="footer-text">
+				<span class="footer-words"><span class="footer-words">ADDRESS AND MAP:<br>
+				701 S Nedderman Dr.<br>
+				Arlington, TX 76019<br>
+				<a href="https://goo.gl/maps/UX4hVCKB2sj">Click here to view map</a></span></span>
+			</div>
+
+
+			<div class="footer-copy">
+				copyright @ Fish Creek Animal Hospital and Haylee Steinert, 2017
+			</div>
+		</div>
+	</footer>
 </body>
 </html>
